@@ -1,0 +1,61 @@
+#content{
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5);
+    grid-gap: 100px;
+    
+
+	margin: auto;
+	border: none;
+	background-color: none;
+	max-width: 90%;
+	padding: 3px;
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
+.termek{
+	background-color: none;
+	color: white;
+	border: solid 1px;
+	border-radius: 5px;
+    /*korábban 200px volt a szélesség*/
+	max-width: 300px;
+	max-height: 400px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.termek button{
+	margin-top: 1px;
+	margin-bottom: 10px;
+	width: 100%;
+	position: relative;
+}
+
+.termek img{
+	border-radius: 5px;
+  /*korábban 200px volt a szélesség*/
+	width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.termek p{
+	font-size: 20px;
+	text-align: center;
+}
+#alapForm{
+	margin: auto;
+  width: 50%;
+  height: 50%;
+  border: 3px solid rgb(203, 206, 27);
+  background-color: darkgoldenrod;
+  padding: 10px;
+  text-align: center;
+}
+body{
+background-color: rgba(0, 0, 0, 0.822);
+}
